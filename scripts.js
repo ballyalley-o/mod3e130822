@@ -94,6 +94,29 @@ const companies = [
 
 
 
-// console.log ('Exercise 7');
+// //console.log ('Exercise 7');
+
+// const unknownNums = function() {
+//   let total = 0;
+//   for (let i of arguments) {
+//     total += i;
+//   } 
+//   return total;
+
+// };
+
+// console.log(unknownNums(98, 56, 02, 98, 348, 213, 12, 76, 3, 29));
+
+
+
+// console.log ('Exercise 8');
+
+const addArg = (...arguments) => {
+  return arguments.reduce((value, addArg) => value + addArg, 0);
+
+};
+
+
+console.log()
 
 
